@@ -1,0 +1,17 @@
+<style>
+h2{color : blue;}
+h6 {margin: 0 0 3px 0;}
+.det input[type="text"],input[type="password"],textarea,select
+{
+border-color:green;
+}
+.det input[type="submit"]
+{
+width: 150px;
+height: 35px;
+border: 0;
+margin-top:10px;
+border-radius: 5px;
+background-color:skyblue;
+}
+</style>
