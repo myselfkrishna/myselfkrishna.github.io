@@ -1,6 +1,7 @@
 <html>
 <head><title>secondpage</title>
 <link rel="stylesheet" type="text/css" href="formcs.css">
+<script src="forscript.js"></script>
 </head>
 <body>
 <center><h2>Welcome to 10000 coders programming challenge</h2></center>
@@ -23,7 +24,7 @@
 <li>Buttions</li>
 </ul></li></ol>
 <center><h5>So,lets get started.All the best!</h5>
-<form class="det">
+<form class="det" name="myForm">
 <h6>Full Name<input type="text" placeholder="Enter your first name" name="username"></h6><br>
 <h6>Secret Pin<input type="password" placeholder="Enter your secret pin" name="secret"></h6><br>
 <h6>Gender <input type="radio" name="male">Male
@@ -37,8 +38,8 @@
 <option value="Mechanical">Mechanica</option>
 </select></h6><br>
 <h6>Tell more about yourself
-<textarea>This is text area enter your Description here</textarea><br></h6>
-<h6><input type="submit" value="Submit Form"></h6>
+<textarea placeholder="This is text area enter your Description here"></textarea><br></h6>
+<h6><input type="submit" value="Submit Form" onclick="validateForm()"></h6>
 </form></center></p>
 </body>
 </html>
